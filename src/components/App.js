@@ -108,7 +108,7 @@ class App extends Component {
             <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '600px' }}>
               <div className="content mr-auto ml-auto">
                 <a
-                  href="https://www.youtube.com/channel/UCw8l5E8oKrAWlun-M_OSfFA"
+                href="https://www.linkedin.com/in/sdbhosale/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
