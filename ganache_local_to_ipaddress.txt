@@ -1,0 +1,968 @@
+---------------
+First Terminal:
+---------------
+PS D:\DEX> ganache --host 192.168.225.68 --port 8545
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_win32_x64_120.node'
+Require stack:
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\ganache\node_modules\@trufflesuite\uws-js-unofficial\src\uws.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\ganache\dist\node\cli.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+ganache v7.9.2 (@ganache/cli: 0.10.2, @ganache/core: 0.10.2)
+Starting RPC server
+
+Available Accounts
+==================
+(0) 0x5A5260e6cC582a41fe959e3315530C1aD651Ae64 (1000 ETH)
+(1) 0x3dE60A6F273d6350279973e7BaD3b5caaB52723A (1000 ETH)
+(2) 0x52A6e3430a1e27D454B1A984126F325b5597D8e4 (1000 ETH)
+(3) 0x2cF31661Ae53Ff031bd7e7572e7e75Ff2531eE79 (1000 ETH)
+(4) 0x932cCaD7D5039ef8072D06cB79e859bD9B200e1D (1000 ETH)
+(5) 0xFFBd6890990CdA3d6E4657E5983d5AD112903688 (1000 ETH)
+(6) 0x121737B6580fEd1a7c3831C210368b869826131C (1000 ETH)
+(7) 0x14A0036BD6B551521c80ad8cBaE1CeC1B3129820 (1000 ETH)
+(8) 0x51569f7E764d7c54C07Fd7b21B3eA4cA46B678E0 (1000 ETH)
+(9) 0x61143C152CDabDbcaAc90eeA45ac447Cc2629085 (1000 ETH)
+
+Private Keys
+==================
+(0) 0x2e14a7c916bc95a8d89218e5f7b5e928a46aacfdbe2c79ae9229f914c535070f
+(1) 0xaf6db5c7a267a9d25e09b8fe8294e4e1c438daaf05cdd1c32a6e43fad11e14e6
+(2) 0xb5d4916b57d85a8c0d7392a7999f5fcae207b94cc1382e61c1fe2c02560250ed
+(3) 0xd648ba3a3a06deab236ace136d6d75d86814ac180d6118efeb3f69aebee092fd
+(4) 0x9d4636f666dc689d15ec0e45419ebbf2c2301778cdbcdcc528d93e7ae544a194
+(5) 0x28e9b89fbda184ae0158f9565ef6554ff2bef6e81452e0993aeb8223b0af702a
+(6) 0x9b5f339952edef7b3097ce1df85c13b722c6b3c424c7b6f69fa0ea912727e132
+(7) 0x12b2b09c46bf5b0acb1c4e4c7760d0af8b27456868837260a82df6b49c0760a5
+(8) 0xb8de669126e8f4a2d4012eb0d86010e155812fb209b55536fcb285ed7756ce24
+(9) 0xe0a80c8e38f835b8dc5fd2c27f75aa0c6f78348ba33d2fafc31febcd04043773
+
+HD Wallet
+Mnemonic:      retreat horn purpose grace blanket toe crowd castle smooth nature decrease occur
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain
+==================
+Mnemonic:      retreat horn purpose grace blanket toe crowd castle smooth nature decrease occur
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Default Gas Price
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain
+==================
+==================
+2000000000
+
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain
+==================
+BlockGas Limit
+==================
+30000000
+
+Call Gas Limit
+==================
+50000000
+
+Chain
+==================
+==================
+50000000
+
+Chain
+==================
+
+Chain
+==================
+Chain
+==================
+==================
+Hardfork: shanghai
+Id:       1337
+
+
+RPC Listening on 192.168.225.68:8545
+> eth_blockNumber
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber     
+eth_getBlockByNumber
+eth_estimateGas     
+eth_getBlockByNumber
+eth_gasPrice       
+eth_sendTransaction
+
+  Transaction: 0x7fb52b1c9ee285fa4fdd8b5063ac54909f3f29124a640a99a7142e4f3fa2c658
+  Contract created: 0xa4cbd16273e314409e4cb9bfc31b5bfb97cba776
+  Gas usage: 226575
+  Block number: 1
+  Block time: Fri Apr 25 2025 15:20:45 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash 
+eth_getBlockByNumber
+eth_getBalance      
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x75b2c87b6563bff619e68f97a0db02e1c327022196cea7fa903d049ecf0a5cf0
+  Gas usage: 45763
+  Block number: 2
+  Block time: Fri Apr 25 2025 15:20:45 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x12ffd015b743247dc678973f0991f4853363ad12f2b0fae4a904b262814ac124
+  Contract created: 0xa2a8b1d078a2bf848526b729894e2d0d3806b598
+  Gas usage: 750970
+  Block number: 3
+  Block time: Fri Apr 25 2025 15:20:45 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xc0c81380b0fc8d41ba2ae6b6acde5624e15c02b3a3c4c6096cc113fcb9eef687
+  Contract created: 0x41d1e9ecc328fce964b92ea4f098de1be6ab35d5
+  Gas usage: 599646
+  Block number: 4
+  Block time: Fri Apr 25 2025 15:20:45 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x48ebdaa426a42d912bc0117fd8ac5ff480c6886ceada645be0fa4c40adf84991
+  Gas usage: 46645
+  Block number: 5
+  Block time: Fri Apr 25 2025 15:20:45 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xea5084992141b234c1a5147f85739d7510c33dee966dd48ae154ede77e6f1e86
+  Gas usage: 28663
+  Block number: 6
+  Block time: Fri Apr 25 2025 15:20:45 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_getBlockByNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_gasPrice
+eth_blockNumber
+(node:14548) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [Server]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+net_version
+eth_call
+eth_getCode
+eth_getCode
+eth_estimateGas
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_getTransactionCount
+eth_sendRawTransaction
+
+  Transaction: 0x40a4645e22e3202b96b918a612eb5d1d19e4ec139d0abf96376ab2437cb56c65
+  Gas usage: 61519
+  Block number: 7
+  Block time: Fri Apr 25 2025 15:27:23 GMT+0530 (India Standard Time)
+
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getBlockByNumber
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_getBlockByHash
+eth_getBlockByNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getBalance
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_call
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_gasPrice
+eth_getCode
+eth_blockNumber
+eth_getCode
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getCode
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getCode
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_estimateGas
+eth_blockNumber
+eth_estimateGas
+eth_getCode
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getTransactionCount
+eth_sendRawTransaction
+
+  Transaction: 0xe03907c0bafa643139256dfcc2460213c1680d3212d4a3de48eaf95db8f612bf
+  Gas usage: 51445
+  Block number: 8
+  Block time: Fri Apr 25 2025 15:35:36 GMT+0530 (India Standard Time)
+
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_getTransactionReceipt
+eth_getBlockByHash
+eth_gasPrice
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getCode
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getBlockByNumber
+eth_blockNumber
+eth_estimateGas
+eth_blockNumber
+eth_blockNumber
+eth_estimateGas
+eth_gasPrice
+eth_getCode
+eth_estimateGas
+eth_blockNumber
+eth_blockNumber
+eth_getTransactionCount
+eth_sendRawTransaction
+
+  Transaction: 0xd26c1eb31bc91fe4092275817805b0da3257535869ddcba9b3b2b563d67d80a0
+  Gas usage: 29545
+  Block number: 9
+  Block time: Fri Apr 25 2025 15:41:07 GMT+0530 (India Standard Time)
+
+eth_call
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_getTransactionReceipt
+eth_call
+eth_blockNumber
+eth_getBlockByHash
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_call
+eth_getBalance
+eth_getBalance
+eth_call
+eth_getBalance
+eth_call
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_gasPrice
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getCode
+eth_getCode
+eth_estimateGas
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_getTransactionCount
+eth_sendRawTransaction
+
+  Transaction: 0x9ed0ac604638258ce858d66551c80d563aa842ec238e393e1af62cbffdabb636
+  Gas usage: 44419
+  Block number: 10
+  Block time: Fri Apr 25 2025 15:43:25 GMT+0530 (India Standard Time)
+
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_getBlockByHash
+eth_call
+eth_getBlockByNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_blockNumber
+eth_getBlockByNumber
+net_version
+eth_gasPrice
+eth_blockNumber
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getCode
+eth_blockNumber
+eth_getCode
+eth_estimateGas
+eth_estimateGas
+eth_blockNumber
+eth_getCode
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_getCode
+eth_call
+eth_call
+eth_getTransactionCount
+eth_sendRawTransaction
+
+  Transaction: 0xbde35133182c08b6a51e861d557088d3e9e6ff257c5c0819366477ece399e855
+  Gas usage: 51445
+  Block number: 11
+  Block time: Fri Apr 25 2025 15:46:14 GMT+0530 (India Standard Time)
+
+eth_getTransactionReceipt
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBlockByHash
+eth_getBalance
+eth_getBalance
+eth_gasPrice
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_getBalance
+eth_call
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_getBalance
+eth_blockNumber
+eth_blockNumber
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_blockNumber
+eth_estimateGas
+eth_blockNumber
+eth_gasPrice
+eth_getCode
+eth_blockNumber
+eth_call
+eth_blockNumber
+eth_getTransactionCount
+eth_call
+eth_blockNumber
+eth_getCode
+eth_sendRawTransaction
+
+  Transaction: 0xef2d05c372fc4b0602eb2741ce5052fb87dd0f42e20767c27ec474e76c8a3f19
+  Gas usage: 21000
+  Block number: 12
+  Block time: Fri Apr 25 2025 15:52:58 GMT+0530 (India Standard Time)
+
+eth_call
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_gasPrice
+eth_getBalance
+eth_getBalance
+eth_getCode
+eth_call
+eth_getTransactionReceipt
+eth_getBalance
+eth_getBalance
+eth_getBlockByHash
+eth_getBalance
+eth_call
+eth_blockNumber
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_getBlockByNumber
+eth_estimateGas
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_estimateGas
+eth_getCode
+eth_estimateGas
+eth_blockNumber
+eth_call
+eth_blockNumber
+eth_getTransactionCount
+eth_call
+eth_blockNumber
+eth_sendRawTransaction
+
+  Transaction: 0xe1fcd555defadef881602daa5a9dd8e7d7c30d66cf86c8e6478cb29ff42a4fb1
+  Gas usage: 34345
+  Block number: 13
+  Block time: Fri Apr 25 2025 15:55:34 GMT+0530 (India Standard Time)
+
+eth_call
+eth_call
+eth_getTransactionReceipt
+eth_blockNumber
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBalance
+eth_getBalance
+eth_gasPrice
+eth_getBlockByHash
+eth_getBalance
+eth_call
+eth_call
+eth_getBalance
+eth_getBalance
+eth_getCode
+eth_getBalance
+eth_call
+eth_call
+eth_getBalance
+eth_call
+eth_call
+eth_blockNumber
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_call
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+eth_blockNumber
+---------------
+2nd Terminal :
+---------------
+PS D:\DEX> truffle migrate
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_win32_x64_120.node'
+Require stack:
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\ganache\node_modules\@trufflesuite\uws-js-unofficial\src\uws.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\ganache\dist\node\core.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\migrate.bundled.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\original-require\index.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\cli.bundled.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+
+Compiling your contracts...
+===========================
+> Compiling .\src\contracts\EthSwap.sol
+> Compiling .\src\contracts\Migrations.sol        
+> Compiling .\src\contracts\Token.sol
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+s
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\ganache\dist\node\core.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\migrate.bundled.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\original-require\index.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\cli.bundled.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+
+Compiling your contracts...
+===========================
+> Compiling .\src\contracts\EthSwap.sol
+> Compiling .\src\contracts\Migrations.sol
+> Compiling .\src\contracts\Token.sol
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\cli.bundled.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+
+Compiling your contracts...
+===========================
+> Compiling .\src\contracts\EthSwap.sol
+> Compiling .\src\contracts\Migrations.sol
+> Compiling .\src\contracts\Token.sol
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Compiling your contracts...
+===========================
+> Compiling .\src\contracts\EthSwap.sol
+> Compiling .\src\contracts\Migrations.sol
+> Compiling .\src\contracts\Token.sol
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+> Compiling .\src\contracts\Migrations.sol
+> Compiling .\src\contracts\Token.sol
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+> Something went wrong while attempting to connect to the network at http://127.0.0.1:7545. Check your network configuration.      
+CONNECTION ERROR: Couldn't connect to node http://127.0.0.1:7545.
+Truffle v5.11.5 (core: 5.11.5)
+Truffle v5.11.5 (core: 5.11.5)
+PS D:\DEX> truffle migrate
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_win32_x64_120.node'
+Require stack:
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\ganache\node_modules\@trufflesuite\uws-js-unofficial\src\uws.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\ganache\dist\node\core.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\migrate.bundled.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\node_modules\original-require\index.js
+- C:\Users\k.k\AppData\Roaming\npm\node_modules\truffle\build\cli.bundled.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+
+Compiling your contracts...
+===========================
+> Compiling .\src\contracts\EthSwap.sol
+> Compiling .\src\contracts\Migrations.sol        
+> Compiling .\src\contracts\Token.sol
+> Artifacts written to D:\DEX\src\abis
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'development'       
+> Network id:      1745574423622       
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x7fb52b1c9ee285fa4fdd8b5063ac54909f3f29124a640a99a7142e4f3fa2c658
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xa4cbd16273e314409e4cB9bfC31B5Bfb97CBA776
+   > block number:        1
+   > block timestamp:     1745574645
+   > account:             0x5A5260e6cC582a41fe959e3315530C1aD651Ae64
+   > balance:             999.999235309375
+   > gas used:            226575 (0x3750f)
+   > gas price:           3.375 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000764690625 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:      0.000764690625 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Token'
+   -----------------
+   > transaction hash:    0x12ffd015b743247dc678973f0991f4853363ad12f2b0fae4a904b262814ac124
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xA2A8B1D078a2Bf848526B729894e2d0d3806b598
+   > block number:        3
+   > block timestamp:     1745574645
+   > account:             0x5A5260e6cC582a41fe959e3315530C1aD651Ae64
+   > gas used:            750970 (0xb757a)
+   > gas price:           3.171660079 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00238182156952663 ETH
+
+
+   Deploying 'EthSwap'
+Compiled successfully!
+
+You can now view eth-swap in the browser.        
+
+  Local:            http://localhost:3000/       
+  On Your Network:  http://192.168.225.68:3000/  
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+-------------------------------------------------
+ganache --host 192.168.225.68 --port 8545
+---
+Field | Value
+Network Name | Ganache Local
+RPC URL | http://192.168.225.68:8545 (replace with your PC's IP)
+Chain ID | 1337
+Currency Symbol | ETH
+Block Explorer URL | (Leave empty)
+---

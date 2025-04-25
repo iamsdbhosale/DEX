@@ -4258,12 +4258,18 @@
         }
       },
       "links": {},
-      "address": "0x92Ba277A333518642343D5Ef414821FfCFe15F55",
-      "transactionHash": "0xda424e3b1b49e0370456a1e54c6dc69ebe580b2ccd84387704fce4e466456f64"
+      "address": "0xA145EDb97f926310839673c9e892fA47B332C323",
+      "transactionHash": "0x2fe9e07d5539fed05d5f4217c26ab86152e14945b4f084bdf85266ad6572e23f"
+    },
+    "1745574423622": {
+      "events": {},
+      "links": {},
+      "address": "0x41D1e9ECC328Fce964b92ea4f098De1bE6Ab35D5",
+      "transactionHash": "0xc0c81380b0fc8d41ba2ae6b6acde5624e15c02b3a3c4c6096cc113fcb9eef687"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-04-20T16:57:19.778Z",
+  "updatedAt": "2025-04-25T09:50:45.771Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
