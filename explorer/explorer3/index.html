@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ganache Explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script defer src="app.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      padding: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+    :root {
+      --bg-color: #f0f0f0;
+      --text-color: #222;
+      --card-color: #fff;
+      --border-color: #ccc;
+    }
+    .dark {
+      --bg-color: #1e1e1e;
+      --text-color: #eee;
+      --card-color: #2a2a2a;
+      --border-color: #444;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .tabs button {
+      padding: 6px 12px;
+      border: 1px solid var(--border-color);
+      background: var(--card-color);
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .active-tab {
+      font-weight: bold;
+      background: #4CAF50;
+      color: white;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid var(--border-color);
+      background: var(--card-color);
+      border-radius: 5px;
+      color: var(--text-color);
+    }
+
+    .block {
+      background: var(--card-color);
+      border-left: 5px solid #4CAF50;
+      margin: 15px 0;
+      padding: 10px;
+    }
+
+    .transaction {
+      margin: 10px 0;
+      padding: 8px;
+      background: var(--bg-color);
+      border-left: 4px solid #2196F3;
+      position: relative;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: #eee;
+      border: none;
+      padding: 4px 8px;
+      cursor: pointer;
+      font-size: 0.8em;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .theme-toggle {
+      cursor: pointer;
+      font-size: 0.9em;
+      border: 1px solid var(--border-color);
+      padding: 4px 10px;
+      border-radius: 5px;
+      background: var(--card-color);
+    }
+
+    .details {
+      margin-top: 20px;
+    }
+
+    .collapsible {
+      background: #eee;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin-top: 5px;
+      border-radius: 4px;
+    }
+
+    .hidden { display: none; }
+    .loading { font-style: italic; color: gray; }
+    a { color: #4CAF50; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Ganache Blockchain Explorer</h1>
+
+  <div class="tabs">
+    <button id="tab-blocks" class="active-tab" onclick="showTab('blocks')">Blocks</button>
+    <button id="tab-addresses" onclick="showTab('addresses')">Addresses</button>
+    <button id="tab-contracts" onclick="showTab('contracts')">Contracts</button>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="addressFilter" placeholder="🔍 Filter by address..." />
+    <button onclick="exportToCSV()">⬇️ Export CSV</button>
+    <span class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Theme</span>
+  </div>
+
+  <div id="mainContent" class="loading">Loading...</div>
+
+  <div class="controls">
+    <button onclick="prevPage()">⬅️ Prev</button>
+    <span id="pageInfo"></span>
+    <button onclick="nextPage()">➡️ Next</button>
+  </div>
+</body>
+</html>
+<!--
+✅ New Features Added:
+    🧱 Block Details Page – click a block number to see detailed info.
+    📁 Tabs – switch between Blocks / Addresses / Contracts views.
+    📦 Collapsible Transactions – expand/collapse per block.
+-->

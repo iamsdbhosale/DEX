@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ganache Blockchain Explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script defer src="app.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      padding: 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    :root {
+      --bg-color: #f0f0f0;
+      --text-color: #222;
+      --card-color: #fff;
+      --border-color: #ccc;
+    }
+
+    .dark {
+      --bg-color: #1e1e1e;
+      --text-color: #eee;
+      --card-color: #2a2a2a;
+      --border-color: #444;
+    }
+
+    h1 { color: var(--text-color); }
+
+    input[type="text"] {
+      padding: 8px;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid var(--border-color);
+      border-radius: 5px;
+      background: var(--card-color);
+      color: var(--text-color);
+    }
+
+    .block {
+      background: var(--card-color);
+      border-left: 5px solid #4CAF50;
+      margin: 15px 0;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .transaction {
+      margin: 10px 0;
+      padding: 8px;
+      background: #f9f9f9;
+      background: var(--bg-color);
+      border-left: 4px solid #2196F3;
+      word-break: break-word;
+      position: relative;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: #eee;
+      border: none;
+      padding: 4px 8px;
+      cursor: pointer;
+      font-size: 0.8em;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    button {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .loading {
+      color: #777;
+      font-style: italic;
+    }
+
+    .theme-toggle {
+      cursor: pointer;
+      font-size: 0.9em;
+      border: 1px solid var(--border-color);
+      padding: 4px 10px;
+      border-radius: 5px;
+      background: var(--card-color);
+    }
+  </style>
+</head>
+<body>
+  <h1>Ganache Blockchain Explorer</h1>
+
+  <div class="controls">
+    <input type="text" id="addressFilter" placeholder="🔍 Filter by address..." />
+    <button onclick="exportToCSV()">⬇️ Export CSV</button>
+    <span class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Theme</span>
+  </div>
+
+  <div id="blocks" class="loading">Loading transactions...</div>
+
+  <div class="controls">
+    <button onclick="prevPage()">⬅️ Prev</button>
+    <span id="pageInfo"></span>
+    <button onclick="nextPage()">➡️ Next</button>
+  </div>
+</body>
+</html>
+
+<!--
+🔍 Search by address
+📋 Copy hash/addresses
+📄 Export visible data to CSV
+🌙 Toggle between Light/Dark themes
+⏭ Page through blocks 10 at a time
+🔁 Auto-refresh every 10 seconds
+-->

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ganache Blockchain Explorer</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script defer src="app.js"></script>
+  <style>
+    body { font-family: sans-serif; background: #f0f0f0; padding: 20px; }
+    h1 { color: #333; }
+
+    input[type="text"] {
+      padding: 8px; margin-bottom: 20px; width: 100%;
+      max-width: 400px; border: 1px solid #ccc; border-radius: 5px;
+    }
+
+    .block {
+      background: #fff; border-left: 5px solid #4CAF50; margin: 15px 0; padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .transaction {
+      margin: 10px 0; padding: 8px; background: #f9f9f9; border-left: 4px solid #2196F3;
+      word-break: break-word;
+      position: relative;
+    }
+
+    .copy-btn {
+      position: absolute; top: 5px; right: 5px; background: #eee;
+      border: none; padding: 4px 8px; cursor: pointer; font-size: 0.8em;
+    }
+
+    .loading { color: #777; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h1>Ganache Blockchain Explorer</h1>
+  <input type="text" id="addressFilter" placeholder="🔍 Filter by address (from or to)...">
+  <div id="blocks" class="loading">Loading transactions...</div>
+</body>
+</html>
+
+<!--
+Filter transactions by from or to address.
+Click to copy hashes and addresses.
+See parent hashes of blocks.
+Automatically updates as new blocks are added.
+https://chatgpt.com/share/680c6041-d344-8012-b162-2d0ceda07da9
+-->
