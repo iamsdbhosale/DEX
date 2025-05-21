@@ -1,0 +1,6 @@
+ganache --host ipaddress --port 8545
+---
+Another terminal :
+truffle migrate
+npm start
+---

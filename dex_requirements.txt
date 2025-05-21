@@ -1,0 +1,18 @@
+Please help to share code of voting app in blockchain with erc-20 token.
+Please use following things and write code from scratch:
+1. solidity ^0.5.0
+2. ganache v7.9.2 (@ganache/cli: 0.10.2, @ganache/core: 0.10.2)
+3. Truffle v5.11.5 (core: 5.11.5)
+Ganache v7.9.1
+Solidity v0.5.16 (solc-js)
+Node v21.6.1
+Web3.js v1.10.0
+---
+node --version
+v21.6.1
+---
+java --version
+java 17.0.10 2024-01-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.10+11-LTS-240)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.10+11-LTS-240, mixed mode, sharing)
+---
