@@ -4,3 +4,13 @@ Another terminal :
 truffle migrate
 npm start
 ---
+
+<!--
+ganache --host ipaddress --port 8545
+ganache --host 192.168.225.68 --port 8545
+---
+Another terminal :
+truffle migrate
+npm start
+---
+-->
